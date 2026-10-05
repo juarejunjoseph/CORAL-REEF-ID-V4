@@ -1,0 +1,21 @@
+{
+  "name": "coral-reef-id-v4",
+  "version": "4.0.0",
+  "private": true,
+  "description": "Philippine Coral Reef Identification System - mobile-first PWA powered by Teachable Machine and TensorFlow.js.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@teachablemachine/image": "^0.8.5",
+    "@tensorflow/tfjs": "^4.22.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "vite": "^8.3.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {}
+}
